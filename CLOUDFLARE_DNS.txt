@@ -1,0 +1,7 @@
+DNSExit record to create AFTER the Cloudflare Pages project has been created and the custom domain has been associated in Pages:
+
+Type: CNAME
+Host/Name: link
+Target/Content: <YOUR_PAGES_PROJECT>.pages.dev
+
+Do not point the hostname directly at the Supabase project because Supabase Custom Domains are unavailable on the current Free plan.

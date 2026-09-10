@@ -1,0 +1,9 @@
+{
+  "name": "crown-empire-share-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Crown Empire branded product share pages for Cloudflare Pages Functions",
+  "scripts": {
+    "dev": "wrangler pages dev ."
+  }
+}
